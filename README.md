@@ -177,17 +177,14 @@
         var data;
         switch(data)
         {
-            case 'value1': 
-                //Instructions ...
-            break;
-            case 'value2': 
-                //Instructions ...
-            break;
-
-            //.....
-
+            case 1: 
+                //TODO:
+                break;
+            case 2: 
+                //TODO:
+                break;
             default: 
-                //Instructions par defaut ...
+                //TODO:
         }
     ``
 
@@ -195,9 +192,9 @@
 
     Ex : 
         ``
-            var adult = confirm("Êtes vous majeur ?");
-            var text = adult ? "Vous etes un adulte" : "Vous etes mineur";
-            alert(text);
+        var adult = confirm("Êtes vous majeur ?");
+        var text = adult ? "Vous etes un adulte" : "Vous etes mineur";
+        alert(text);
         ``
 
 
