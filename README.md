@@ -160,35 +160,43 @@
 
     Les structures conditionnelles
 
-    if conditions alors
-    sinon fais ceci
+    ``
+        if conditions alors
+        sinon fais ceci
 
-    if(condition) 
-    {
-       Instructions ... 
-    }
-    else{
-        Instructions par défaut
-    }
+        if(condition) 
+        {
+        Instructions ... 
+        }
+        else{
+            Instructions par défaut
+        }
+    ``
 
-    switch(element a tester)
-    {
-        case 'value1': Instructions ...
-        break;
-        case 'value2': Instructions ...
-        break;
+    ``
+        switch(element a tester)
+        {
+            case 'value1': Instructions ...
+            break;
+            case 'value2': Instructions ...
+            break;
 
-        .....
+            .....
 
-        default: Instructions par defaut ...
-    }
-
+            default: Instructions par defaut ...
+        }
+    ``
 
     Instructions Ternaires
 
-    var adult = confirm("Êtes vous majeur ?");
-
     Ex : 
+        ``
+            var adult = confirm("Êtes vous majeur ?");
+            var text = adult ? "Vous etes un adulte" : "Vous etes mineur";
+            alert(text);
+        ``
+
+
 
 
 Exercice :
