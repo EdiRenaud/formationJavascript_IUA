@@ -160,7 +160,8 @@
 
     Les structures conditionnelles
 
-    ``
+    ```Javascript
+    
         if conditions alors
         sinon fais ceci
 
@@ -171,10 +172,11 @@
         else{
             Instructions par défaut
         }
-    ``
+    ```
 
-    ``
-        var data;
+    ```Javascript
+    
+       var data;
         switch(data)
         {
             case 1: 
@@ -186,16 +188,17 @@
             default: 
                 //TODO:
         }
-    ``
+    ```
 
     Instructions Ternaires
 
     Ex : 
-        ``
+    ```Javascript
+    
         var adult = confirm("Êtes vous majeur ?");
         var text = adult ? "Vous etes un adulte" : "Vous etes mineur";
         alert(text);
-        ``
+    ```
 
 
 
