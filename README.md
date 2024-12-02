@@ -160,6 +160,8 @@
 
     Les structures conditionnelles
 
+    If .. Else ...
+
     ```Javascript
     
         if conditions alors
@@ -173,6 +175,8 @@
             Instructions par défaut
         }
     ```
+
+    Switch 
 
     ```Javascript
     
@@ -205,14 +209,15 @@
 
 Exercice :
 
-    1-17 ans => "Vous n'êtes pas encore majeur";
-    18-49 ans => "Vous êtes majeur mais pas encore senior";
-    50-59 ans => "Vous êtes senior mais pas encore retraité";
-    60-120 ans => "Vous êtes retraité, profitez de votre temps libre";
+----------
+1-17 ans => "Vous n'êtes pas encore majeur";
+18-49 ans => "Vous êtes majeur mais pas encore senior";
+50-59 ans => "Vous êtes senior mais pas encore retraité";
+60-120 ans => "Vous êtes retraité, profitez de votre temps libre";
 
-    - L'utilisateur charge la page Web
-    - Il est ensuite invité à taper son âge dans une fenêtre d'interaction
-    - Une fois l'âge fourni l'utilisateur obtient un petit commentaire
+    1. L'utilisateur charge la page Web
+    2. Il est ensuite invité à taper son âge dans une fenêtre d'interaction
+    3. Une fois l'âge fourni l'utilisateur obtient un petit commentaire
 
 
 
