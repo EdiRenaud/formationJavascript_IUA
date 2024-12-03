@@ -28,8 +28,8 @@ number1 = number1 + "";
 //IMC = poids/Taille²
 var imc, poids, taille;
 
-//poids = prompt("Entrez votre poids svp :");
-//taille = prompt("Entrez votre taille svp :");
+poids = prompt("Entrez votre poids svp :");
+taille = prompt("Entrez votre taille svp :");
 
 //imc = parseFloat(poids) / (parseFloat(taille) * parseFloat(taille));
 
@@ -65,6 +65,7 @@ alert(adult==true ? "Vous etes un adulte" : "Vous etes mineur");
 
 
 alert(postalCode ? "Vous etes un adulte" : "Vous etes mineur");
+
 
 
 
