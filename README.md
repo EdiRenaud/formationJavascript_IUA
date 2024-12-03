@@ -207,19 +207,157 @@
 
 
 
-Exercice :
+    Exercice :
 
-----------
-    > 
-    1-17 ans => "Vous n'êtes pas encore majeur";
-    18-49 ans => "Vous êtes majeur mais pas encore senior";
-    50-59 ans => "Vous êtes senior mais pas encore retraité";
-    60-120 ans => "Vous êtes retraité, profitez de votre temps libre";
+    ----------
+        > 
+        1-17 ans => "Vous n'êtes pas encore majeur";
+        18-49 ans => "Vous êtes majeur mais pas encore senior";
+        50-59 ans => "Vous êtes senior mais pas encore retraité";
+        60-120 ans => "Vous êtes retraité, profitez de votre temps libre";
 
 
-    1. L'utilisateur charge la page Web
-    2. Il est ensuite invité à taper son âge dans une fenêtre d'interaction
-    3. Une fois l'âge fourni l'utilisateur obtient un petit commentaire
+        1. L'utilisateur charge la page Web
+        2. Il est ensuite invité à taper son âge dans une fenêtre d'interaction
+        3. Une fois l'âge fourni l'utilisateur obtient un petit commentaire
+
+    ----------
+    Correction exercice
+
+    ```javascript
+        var age = prompt("Veuillez saisir votre age:");
+        var ageNumber = parseInt(age);
+
+        if(ageNumber >= 1 && ageNumber <=17){
+            alert("Vous n'êtes pas encore majeur");
+        }
+        else if(ageNumber >= 18 && ageNumber <=49){
+            alert("Vous êtes majeur mais pas encore senior");
+        }
+        else if(ageNumber >= 50 && ageNumber <=59){
+            alert("Vous êtes senior mais pas encore retraité");
+        }
+        else if(ageNumber >= 60 && ageNumber <=120){
+            alert("Vous êtes retraité, profitez de votre temps libre");
+        }
+        else{
+            alert("Age invalide");
+        }
+
+    ```
+
+
+    Les structures iteratives (Les boucles)
+
+        - L'incrémentation
+        Insctruction utilisée pour ajouter une unité à un nombre au moyen d'une syntaxe courte.
+
+        var number = 0;
+        number = number + 1;
+        number++;
+
+
+        - Décrémentation
+
+        Insctruction utilisée pour retirer une unité à un nombre au moyen d'une syntaxe courte.
+
+        var number2 = 10;
+        number2 = number2 - 1;
+        number2--;
+
+
+        - L'ordre des opérateurs
+        number++;
+        ++number;
+
+        number2--;
+        --number2;
+
+
+        - La boucle WHILE
+            
+            Tant que ....... Faire 
+            
+            La syntaxe
+
+            while(condition){
+                .. Instruction 1;
+                .. Instruction 2;
+                .. Instruction 3;
+            }
+        
+            Ex1:
+                ```javascript
+                    var numberI = 1;
+                    while(numberI <10){
+                        numberI++;
+                    }
+                    alert(numberI);
+                ```
+            
+            Ex2:
+                ```javascript
+                    var prenoms = '', prenom, temoin = true;
+
+                    while(temoin){
+
+                        prenom = prompt("Entrez un prénom svp !");
+
+                        if(prenom){
+                            prenoms += prenom + " ";
+                        }
+                        else{
+                            temoin = false;
+                        }
+                    }
+
+                    alert(prenoms);
+                ```
+            
+            - Do While
+
+                Faire ...... Tant que
+            
+                La syntaxe
+
+                do{
+                    Instruction_1..;
+                    Instruction_2..;
+                    Instruction_3..;
+                }
+                while(condition);
+            
+            - La boucle For
+
+                La syntaxe
+
+                for(initialisation; condition; incrementation){
+                    Instructions_1..;
+                    Instructions_2..;
+                    Instructions_3..;
+                }
+
+                Ex:
+
+                    ```javascript
+                        for(var init=0; init>=10; init++){
+                            alert("Iteration n° " + init);
+                        }
+                    ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
