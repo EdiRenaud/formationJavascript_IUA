@@ -1,20 +1,47 @@
 <html>
     <head>
+        <meta></meta>
         <title>Welcome</title>
+        <style>
+            .red{
+                color: red;
+            }
+
+            #poids{
+                border: 1px solid red;
+            }
+
+            .yellow{
+                background-color: yellow;
+            }
+
+            .brown{
+                background-color: brown;
+            }
+        </style>
     </head>
     <body>
+        <div>
+            <form action="">
+                <p>
+                    <label class="red" for="poids">Poids</label>
+                    <input name="poids" id="poids" type="text" placeholder="Entrez votre poids">
+                </p>
+                <p>
+                    <label class="blue" for="taille">Taille</label>
+                    <input name="taille" id="taille" type="text" placeholder="Entrez votre taille">
+                </p>
+                <p>
+                    <label class="red" for="taille">Age</label>
+                    <input name="age" id="age" type="text" placeholder="Entrez votre age">
+                </p>
 
-        <!-- <form action="">
-            <div>
-                <label for="poids">Poids</label>
-                <input id="poids" type="text" placeholder="Entrez votre age">
-            </div>
-            <div>
-                <label for="taille">Taille</label>
-                <input id="taille" type="text" placeholder="Entrez votre taille">
-            </div>
-        </form> -->
+                <p>
+                    <button id="btn_rechercher" type="button" class="yellow" onclick="execute()">Rechercher</button>
+                </p>
+            </form>
+        </div>
 
-        <script src="js/array_object.js"></script>
+        <script src="js/html_javascript.js"></script>
     </body>
 </html>

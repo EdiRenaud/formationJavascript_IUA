@@ -638,6 +638,105 @@
             alert(prenoms);
         ```
 
+    Manipuler le code Html avec Javascript
+        
+        - Comment naviguer entre les noeuds qui composent une page Html
+
+
+            - Document Object Model (DOM)
+
+                C'est une API (Interface de Programmation d'Application) qui s'utilise sur les documents Html et Xml.
+                Son rôle c'est de permettre au javascript d'accéder à notre code XML ou Html.
+                
+                - L'objet Window (Fenêtre du navigateur)
+
+                    C'est à partir de cet objet que notre Js est exécuté.
+                    C'est lui qui contient notre page Html
+                    L'objet window apporte des fonctions qui sont dites implicites
+
+                    Ex:
+
+                        alert()  === window.alert()
+                        parseInt() === parseFloat() === fonction globale
+
+                - Les variables avec l'objet window
+
+                    Si vous déclarez une variable sans spécifier le mot clé <<var>>, cette variable appartient automatiquement
+                    à l'objet window.
+
+
+                    Ex:
+                        (function(){
+                            text = "Variable accessible";
+                        })();
+
+                        alert(window.text);
+
+                
+                - Le document
+
+                    Il represente notre notre page web et plus précisement notre balise HTML
+
+                
+                - Accéder aux élements du DOM
+
+                    Notre Object document possède des methodes qui permettent d'accéder aux éléments Html.
+
+                    Ex:
+                        - getElementById()
+                        - getElementsByTagName()
+                        - getElementsByName()
+
+                
+                    - getElementById()
+
+                        Elle permet d'accéder à un élément du DOM par le biais de son ID
+
+                    - getElementsByTagName()
+
+                        Elle permet d'accéder aux éléments du DOM par le biais du nom de la balise
+
+                    - getElementsByName()
+
+                        Elle permet d'accéder aux éléments du DOM par le biais de l'attribut nom de la balise
+
+                
+                - Accéder aux éléments grâce aux technologies récentes
+
+                    - querySelector()
+                    - querySelectorAll()
+            
+
+            - Editer les élémements du DOM
+
+
+                
+
+
+
+
+
+
+
+                
+                
+
+
+
+
+                
+
+
+
+
+
+
+
+        - Manipuler le code html avec notre Javascript
+
+    
+
+
 
 
 
