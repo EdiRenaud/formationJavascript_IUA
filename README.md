@@ -710,6 +710,39 @@
             - Editer les élémements du DOM
 
 
+                    - L'heritage des proprietes et des methodes
+
+                        Notion d'heritage
+
+                    - Editer Les elements HTML
+
+                        Editer les attributs
+                            - via l'objet element
+
+                                - getAttribute(nom_attribut_element)
+                                - setAttribute(nom_attribut_element, valeur)
+                            
+                            - Attributs directement accessibles
+
+                                Ex: href
+                            
+                            - Classe
+
+                                Ex: className (Accéder et modifier la valeur d'une classe)
+
+                                - element.className
+                                - element.className = 'New Class'
+
+                        Editer le contenu
+
+                            - innerHTML (quand on veut recupérer ou modifier du contenu HTML)
+                            - innerText (quand on veut recupérer ou modifier un contenu text)
+                            - textContent = innerText
+
+                    
+
+
+
 
 
 
