@@ -738,6 +738,48 @@
                             - innerHTML (quand on veut recupérer ou modifier du contenu HTML)
                             - innerText (quand on veut recupérer ou modifier un contenu text)
                             - textContent = innerText
+            
+            
+            - Naviguer entre les noeuds (les elements html)
+
+                - La propriete parentNode
+                - Les proprietes nodeType, nodeName
+                - Lister et parcourir les elements enfants (des noeuds enfant)
+
+                    - firstChild (Accéder au premier enfant de l'element HTML)
+                    - lastChild (Accéder au dernier enfant de l'element HTML)
+                    - propriete nodeValue ou data
+                    - childNodes
+                    - nextSibling (Accéder à l'element HTML suivant)
+                    - previousSibling (Accéder à l'element HTML précédent)
+            
+
+
+            - Créer et Insérer de nouveaux noeuds HTML
+
+                - Ajouter des éléments HTML
+
+                    - createElement() permet de créer de nouveaux element Html
+                    - appendChild() permet d'insérer l'élément dans un noeud
+                    - createNodeText() permet d'ajouter un noeud textuel
+
+                - Supprimer des elements du DOM
+
+                    - removeChild() permet de supprimer un noeud HTML
+
+                - Insérer un noeud à la bonne place
+
+                    - insertAfter()
+                    - insertBefore()
+            
+
+
+
+
+
+
+
+            
 
                     
 
