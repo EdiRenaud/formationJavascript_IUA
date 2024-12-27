@@ -772,6 +772,112 @@
                     - insertAfter()
                     - insertBefore()
             
+            - Les evènements
+
+                - C'est quoi les évènements
+
+                    Permettent de déclencher une fonction selon qu'une action s'est produite ou non.
+                    Liste des evènements en javascript
+                        - click
+                        - dblclick
+                        - mouseover
+                        - mouseout
+                        - focus
+                        - select
+                        - change
+                        - blur
+                        - keyup
+                        - keydown
+
+                        Evenements associés aux formulaires
+
+                        - submit
+                        - reset
+                    
+                Utilisons les évènements
+
+                    - les évènements sous forme d'attributs (Technique sans DOM)
+                    - Les évènements dans le code Javascript (Technique avec DOM 0)
+                        clickme.onclick = function(){
+                            alert('Vou m\'avez cliqué !');
+                        }
+                    - Les evenements dans le code Javascript (Technique avec DOM2)
+
+                        - L'objet event
+
+
+            - Les formulaires
+
+                Les propriétés de base
+                    - value
+                    - disabled
+                    - checked
+                    - readonly
+
+            - Le CSS
+
+                Comment manipuler le CSS avec le DOM
+
+    Les Objets: conception et utilisation
+
+
+        - le constructeur
+
+            function Person(nom, age, sexe, taille, poids){
+                this.nom = nom;
+                this.age = age;
+                this.sexe = sexe;
+                this.taille = taille;
+                this.poids = poids;
+            }
+    
+    Les expressions regulières ou regex
+
+        - Une sorte de langage qui sert à manipuler les chaines de caractères
+        - Elles ont une syntaxe personnalisée
+        - L'utilisation des regex
+
+            2 façons de les utiliser:
+                - RegExp (L'objet qui gère les expressions régulières)
+                - Methodes appartenant à l'objet string
+                    + match()
+                    + search()
+                    + split()
+                    + replace()
+
+
+            - RegExp
+
+                Initialisation de l'objet RegExp
+
+                    - var regex = /cont/;
+                    - la methode test()
+                
+                Début et fin de chaine
+                    - ^
+                    - $
+
+        
+        - Les fonctions temporelles
+
+            - setTimeout
+            - setInterval
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
 
 
 
